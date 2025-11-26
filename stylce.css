@@ -65,8 +65,7 @@ input:focus {
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
 }
 
-.btn-generate,
-button {
+.btn-generate {
   width: 100%;
   padding: 11px;
   margin-top: 6px;
@@ -80,13 +79,11 @@ button {
   transition: background 0.2s ease, transform 0.1s ease;
 }
 
-.btn-generate:hover,
-button:hover {
+.btn-generate:hover {
   background: #0064d3;
 }
 
-.btn-generate:active,
-button:active {
+.btn-generate:active {
   transform: scale(0.98);
 }
 
